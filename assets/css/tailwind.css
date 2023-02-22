@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.containerCus {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small */
+
+@media (min-width: 768px) {
+  .containerCus {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .containerCus {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .containerCus {
+    width: 1170px;
+  }
+}
